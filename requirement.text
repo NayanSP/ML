@@ -5,3 +5,4 @@ seaborn
 nltk
 matplotlib
 scikit-learn
+scipy
