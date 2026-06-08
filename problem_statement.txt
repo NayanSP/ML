@@ -1,0 +1,21 @@
+whenever you visit a doctor in India, the doctor gives you
+a prescription on paper with all the medicience and doses
+return on it
+
+the doctor tells you to carry this documents or prescription 
+for all the next visit u will have.
+
+the patient may miss the 1/2 paper since its a hardcopy and 
+patient is a human not a robot
+
+build an APP, where doctor stores the basic patient info
+and diseases they have. he can view the record of any patients
+, also can modify any record as well s/he can clean the 
+records
+
+API
+/create
+/view
+/view/patient_id
+/update/patient_id
+/delete/patient_id
