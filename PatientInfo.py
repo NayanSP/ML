@@ -49,3 +49,4 @@ def sort_parameter(sort_by: str = Query(..., description='sort on basis of heigh
 
     sorted_data = sorted(data.values(), key = lambda x:x.get(sort_by,0), reverse=sort_order)
     return sorted_data
+
