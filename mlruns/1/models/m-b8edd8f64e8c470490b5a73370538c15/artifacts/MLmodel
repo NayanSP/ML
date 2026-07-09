@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Nayan/Downloads/MacineLearning/mlruns/1/models/m-b8edd8f64e8c470490b5a73370538c15/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.14
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-b8edd8f64e8c470490b5a73370538c15
+model_size_bytes: 9163
+model_uuid: m-b8edd8f64e8c470490b5a73370538c15
+prompts: null
+run_id: 77f22ce4afe5423eba1ba0a07c269f68
+utc_time_created: '2026-07-09 12:08:08.345104'

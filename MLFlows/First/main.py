@@ -32,10 +32,10 @@ def main():
     print(report_dict)
 
     mlflow.set_experiment('First experiment')
-    mlflow.set_tracking_uri("http://localhost:5000")
+    mlflow.set_tracking_uri("http://127.0.0.1:5000/")
 
     with mlflow.start_run():
-        mlflow.log_param(params)
+        mlflow.log_params(params)
         mlflow.log_metrics({
             'accuracy' : report_dict['accuracy'],
             'recall_class_0' : report_dict['0']['recall'],
