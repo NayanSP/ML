@@ -1,16 +1,11 @@
 [project]
-name = "second-hyperparameter-tuning"
+name = "mlflows"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "ipykernel>=7.3.0",
-    "jupyter>=1.1.1",
     "langchain-openai>=1.3.5",
     "langchain[openai]>=1.3.13",
     "mistralai>=2.6.0",
-    "mlflow>=3.14.0",
-    "optuna>=4.9.0",
-    "scikit-learn>=1.9.0",
 ]
